@@ -1,0 +1,13 @@
+.space {
+    margin-left: 0;
+    left: 5%;
+}
+
+.slider {
+    width: 80%;
+    font-size: 140%;
+}
+
+.textColor {
+    color: rgba(235, 243, 245, 255);
+}

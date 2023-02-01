@@ -1,0 +1,6 @@
+.button {
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=0c8fcc4973cb75d4c9e74dee2e8fc987&type=3#NotInter-Regular');
+    font-size: 20px;
+    -unity-text-outline-width: 1px;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=991038f20ceb244469b4f36536e87826&amp;type=3#MenuStyleSheet" />
+    <ui:VisualElement style="max-width: none; min-width: 100%; min-height: 100%; display: flex; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/Sprites/BG.png?fileID=2800000&amp;guid=3d946a6c7b7a99c4ea4d031f43ab98cc&amp;type=3#BG&apos;); width: 0; height: 0;">
+        <ui:Label text="Fly Away" display-tooltip-when-elided="true" name="Title" style="padding-bottom: 0; font-size: 60px; -unity-font: none; overflow: visible; color: rgb(227, 221, 241);" />
+        <ui:VisualElement name="Container" style="justify-content: space-around; width: 40%; height: 40%;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="Start" class="button" style="background-color: rgb(70, 118, 46);" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" class="button" style="background-color: rgb(68, 122, 140);" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" class="button" style="background-color: rgb(115, 42, 42);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
