@@ -7,10 +7,10 @@
         </ui:VisualElement>
         <ui:VisualElement class="space" style="min-width: 90%; min-height: 70%; justify-content: space-around; bottom: 5%;">
             <ui:Label text="Sounds" display-tooltip-when-elided="true" class="space" style="font-size: 20%;" />
-            <ui:Slider picking-mode="Ignore" label="Hit" value="50" high-value="100" name="Hit" class="space slider" />
-            <ui:Slider picking-mode="Ignore" label="Flutter" value="50" high-value="100" name="Flutter" class="space slider" />
-            <ui:Slider picking-mode="Ignore" label="Dying" high-value="100" value="50" name="Dying" class="space slider" />
-            <ui:Slider picking-mode="Ignore" label="Score Point" value="50" high-value="100" name="ScorePoint" class="space slider" />
+            <ui:Slider picking-mode="Ignore" label="Hit" value="0.5" high-value="1" name="Hit" class="space slider" />
+            <ui:Slider picking-mode="Ignore" label="Flutter" value="0.5" high-value="1" name="Flutter" class="space slider" />
+            <ui:Slider picking-mode="Ignore" label="Dying" high-value="1" value="0.5" name="Dying" class="space slider" />
+            <ui:Slider picking-mode="Ignore" label="Score Point" value="0.5" high-value="1" name="ScorePoint" class="space slider" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

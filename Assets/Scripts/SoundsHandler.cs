@@ -15,7 +15,10 @@ public class SoundsHandler : MonoBehaviour
     private void ApplySettings()
     {
         for(int i = 0; i < slidersNames.Length; i++)
+        {
             sounds[i].volume = PlayerPrefs.GetFloat(slidersNames[i], 0);
+            Debug.Log(PlayerPrefs.GetFloat(slidersNames[i], 0));
+        }
     }
     public void PlayHit()
     {
